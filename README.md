@@ -9,8 +9,7 @@ Hi Everyone, In Second Week of Challenge I have Deployed Tier 3 Web Application 
 -  __Application Gateway__ for internet access to web-server port 80.
 -  __Virtual Network__, __Subnets__, __Network Security Group__.
 
-## Architecture
-![Architectural](https://github.com/thakurnishu/Tier3WebApplication-AzureCloud/assets/90508814/53a53748-0dd5-40cc-9a29-4e56d62c7aa7)
+
 
 ## Detailed Step-by-Step Guide
 If you're interested in learning more about the setup and deployment process, I've written a blog post memo that outlines each step in detail. You can access the blog post [Here]() to gain insights into the configuration, automation, and best practices involved in building and deploying this architecture. 📚
@@ -44,7 +43,6 @@ __NOTE__: Install Nodejs and nginx on your System
     npm run build
     ```
 Now move content of build/* to Nginx root location /var/www/html. Now start your nginx server with ```sudo systemctl start nginx```, review you webpage on :80.
-![Web Page](https://github.com/thakurnishu/10_Weeks_Of_CloudOps/assets/90508814/0d0eecc3-86ca-49d8-8b01-5b6384a0da91)
 
 ## Backend Installation
 __NOTE__ : Install Nodejs and mysql on your System
@@ -86,6 +84,4 @@ Above Command will start Node Server on :4000. You can can health of your server
 
 Now our application is ready !!
 
-[GtiHub Repo Link](https://github.com/thakurnishu/10_Weeks_Of_CloudOps/tree/week2)
 
-[Linkedin](https://linkedin.com/in/contact-nishant-singh)
